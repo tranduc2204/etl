@@ -16,4 +16,4 @@ services:
     image: apache/airflow:2.9.0
     container_name: airflow_etl
     ports:
-      - "8080:8080"
+      - "8080:8080" 

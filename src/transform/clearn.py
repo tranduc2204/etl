@@ -7,7 +7,7 @@ def clean(df):
     col_str = df.select_dtypes(include = "str").columns
     df[col_str] = df[col_str].apply(lambda col:col.str.strip().str.upper())
     
-    
+   
     return df
 
 # if __name__ =="__main__":
@@ -15,3 +15,5 @@ def clean(df):
 #     file_path = BASE_DIR  /"data" / "customers.csv"
 #     df_cus = ufn_reader_csv (file_path)
 #     print (df_cus)
+
+    
